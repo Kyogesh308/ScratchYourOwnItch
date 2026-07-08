@@ -1,0 +1,5 @@
+PySide6>=6.5
+
+# Windows-only, optional: enables true "paste as file" clipboard support.
+# Without it, Copy as Markdown File falls back to copying plain text.
+pywin32; sys_platform == "win32"
